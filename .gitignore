@@ -1,0 +1,9 @@
+node_modules/
+venv/
+
+ignore/
+
+.vscode/
+.idea/
+
+__pycache__/
