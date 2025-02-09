@@ -1,6 +1,8 @@
 import json
 
-from ..type.JSON import JSON
+from parserapp.type.JSON import JSON
+
+
 
 class JSONHandler:
     def __init__(self) -> None:

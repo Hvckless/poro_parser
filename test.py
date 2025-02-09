@@ -1,15 +1,13 @@
-import shlex
+from parserapp.type.Champion import Champion
 
-some = 'hello world "god tell me some reason" "they we are"'
-cmd_components:list[str] = shlex.split(some)
+class Main():
+    def __init__(self)->None:
 
-command = cmd_components[0]
-arguments = cmd_components[1:]
+        _champion = Champion("Ahri", "https://poro.gg/legend/Ahri.png", "width:10px;")
 
-print(command)
-print(arguments)
+        print(_champion.__dict__)
+
+        pass
 
 
-kinggod:list[str] = []
-
-print(len(kinggod))
+app = Main()

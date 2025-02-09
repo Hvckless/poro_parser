@@ -1,6 +1,6 @@
 from dataclasses import dataclass, asdict
 
-from .JSON import JSON
+from parserapp.type.JSON import JSON
 
 @dataclass
 class Champion(JSON):
